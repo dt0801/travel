@@ -152,6 +152,13 @@ p.modal__content-sign-p {
     color: var(--white);
     padding: 15px;
 }
+.modal__btn-login-color{
+    background-color: var(--main2);
+}
+.modal__btn-register-color{
+    background-color: var(--main);
+}
+/* and modal */
 
 @keyframes click-wave {
     0% {

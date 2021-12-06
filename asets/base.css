@@ -314,3 +314,27 @@ p.modal__content-sign-p {
 .register {
     display: none;
 }
+
+/* remove */
+
+.remove {
+    position: fixed;
+    bottom: 25px;
+    background-color: var(--white);
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.remove a{
+    text-decoration: none;
+    color: var(--main);
+    padding: 20px;    
+}
